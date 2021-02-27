@@ -1,0 +1,49 @@
+:root{
+    --color-yellow:#FDD130;
+    --color-black:#0B1D26;
+    --color-white:#FFFFFF;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.body{
+    margin: 0;
+    /* position: relative; */
+    /* height: 100vh; */
+}
+.body__background{
+    position: absolute;
+    height: 1886px;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%), url("../img/MG.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+.header{
+    padding: 56px 80px;
+    height: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.navbar__logo{
+    display: inline-block;
+    height: 2.2em;
+    width: 5.9em;
+}
+.navbar__list{
+    margin: 0;
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    
+}
+.navbar__list__item{
+    padding-inline-start: 1em;
+    display: inline-block;
+}
